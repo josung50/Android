@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        android:layout_height="450dp" android:id="@+id/map" tools:context=".Mymap"
+        android:name="com.google.android.gms.maps.MapFragment"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/CurrentLocationButton" />
+
+    <Button
+        android:layout_width="90dp"
+        android:layout_height="50dp"
+        android:text="현재위치"
+        android:id="@+id/CurrentLocationButton"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:onClick="CurrentLocationButton"/>
+
+    <Button
+        android:layout_width="90dp"
+        android:layout_height="50dp"
+        android:text="나의행적"
+        android:id="@+id/ListButton"
+        android:onClick="ListButton"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/CurrentLocationButton" />
+
+    <Button
+        android:layout_width="90dp"
+        android:layout_height="50dp"
+        android:text="행적저장   시작"
+        android:id="@+id/StartButton"
+        android:onClick="StartButton"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/ListButton" />
+
+    <Button
+        android:layout_width="90dp"
+        android:layout_height="50dp"
+        android:text="행적 초기화"
+        android:id="@+id/DropButton"
+        android:onClick="DropButton"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>
