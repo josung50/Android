@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spinnerArray1">
+        <item>[한 일?]</item>
+        <item>식사</item>
+        <item>과제</item>
+        <item>TV시청</item>
+        <item>게임</item>
+        <item>지인만나기</item>
+        <item>산책</item>
+        <item>독서</item>
+        <item>기타</item>
+    </string-array>
+
+    <string-array name="spinnerArray2">
+        <item>[몇 시간 동안?]</item>
+        <item>0시간</item>
+        <item>1시간</item>
+        <item>2시간</item>
+        <item>3시간</item>
+        <item>4시간</item>
+        <item>8시간</item>
+        <item>12시간</item>
+        <item>24시간</item>
+    </string-array>
+
+    <string-array name="spinnerArray3">
+        <item>[몇 분 동안?]</item>
+        <item>0분</item>
+        <item>5분</item>
+        <item>10분</item>
+        <item>15분</item>
+        <item>20분</item>
+        <item>30분</item>
+        <item>45분</item>
+    </string-array>
+</resources>
